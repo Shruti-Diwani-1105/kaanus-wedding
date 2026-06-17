@@ -189,6 +189,9 @@ img {
 }
 
 @keyframes splashEntrance {
+  from {
+    transform: scale(0.95);
+  }
   to {
     transform: scale(1);
   }
@@ -1227,7 +1230,7 @@ footer {
   }
 
   .hero-content {
-    margin-top: 50px;
+    margin-top: 75px;
   }
 
   .event-grid {
