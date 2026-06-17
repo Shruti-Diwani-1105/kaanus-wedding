@@ -175,8 +175,8 @@ img {
 
 .splash-container {
   position: relative;
-  max-width: 95vw;
-  max-height: 95vh;
+  width: 100%;
+  max-width: min(95vw, calc(95vh * 682 / 1072));
   aspect-ratio: 682 / 1072;
   display: flex;
   justify-content: center;
@@ -1227,7 +1227,7 @@ footer {
   }
 
   .hero-content {
-    margin-top: 0;
+    margin-top: 50px;
   }
 
   .event-grid {
