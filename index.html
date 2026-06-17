@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wedding invitation for the celebration of love of Kaanu & Simran. Join us on March 16, 2027.">
+  <title>Wedding Invitation | Kaanu & Simran</title>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SPLASH SCREEN (INTRO OVERLAY)
+       ========================================================================== -->
+  <div id="splash-screen" class="splash-overlay">
+    <div class="splash-container">
+      <img src="images/main-image.png" alt="Wedding Invitation" class="splash-image">
+      <button id="btn-open-invitation" class="btn-open-transparent" aria-label="Open Invitation"></button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+
+       HERO / BANNER SECTION
+       ========================================================================== -->
+  <header id="hero" class="hero" style="background-image: url('images/main_image.png');">
+    <div class="hero-content">
+      <p class="hero-subtitle">The Wedding of</p>
+      <h1 id="hero-names" class="hero-title">Dhrumil & Hency</h1>
+      <p id="hero-date" class="hero-date">16.03.2027</p>
+      <a href="#couple-section" class="hero-scroll-btn">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT SECTION (FLORAL BACKGROUND WRAPPER)
+       ========================================================================== -->
+  <div class="floral-sections-wrapper">
+
+    <!-- ==========================================================================
+         BRIDE & GROOM SECTION
+         ========================================================================== -->
+    <section id="couple-section" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Bride & Groom</h2>
+        <p>Two hearts, one soul, beginning a new journey together</p>
+      </div>
+      
+      <div class="couple-row">
+        <!-- Bride Card -->
+        <div class="couple-card">
+          <div class="couple-img-wrapper">
+            <img id="bride-photo" src="images/bride.png" alt="Bride">
+          </div>
+          <div class="couple-info">
+            <div>
+              <h3 id="bride-name">Henshi</h3>
+              <p class="couple-role">The Bride</p>
+              <p id="bride-parents" class="couple-parents">Loading...</p>
+              <p id="bride-bio" class="couple-bio">Loading...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Separation Heart (Displays between on large screens, stacks on small) -->
+        <div class="couple-heart">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <!-- Groom Card -->
+        <div class="couple-card">
+          <div class="couple-img-wrapper">
+            <img id="groom-photo" src="images/groom.png" alt="Groom">
+          </div>
+          <div class="couple-info">
+            <div>
+              <h3 id="groom-name">Dhrumil</h3>
+              <p class="couple-role">The Groom</p>
+              <p id="groom-parents" class="couple-parents">Loading...</p>
+              <p id="groom-bio" class="couple-bio">Loading...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       COUNTDOWN TIMER SECTION
+       ========================================================================== -->
+  <section id="countdown-section" class="section-padding countdown-section">
+    <div class="container">
+      <div class="countdown-wrapper">
+        <!-- Countdown boxes -->
+        <div class="timer-grid">
+          <div class="timer-box">
+            <div id="days" class="timer-num">00</div>
+            <div class="timer-label">Days</div>
+          </div>
+          <div class="timer-box">
+            <div id="hours" class="timer-num">00</div>
+            <div class="timer-label">Hours</div>
+          </div>
+          <div class="timer-box">
+            <div id="minutes" class="timer-num">00</div>
+            <div class="timer-label">Mins</div>
+          </div>
+          <div class="timer-box">
+            <div id="seconds" class="timer-num">00</div>
+            <div class="timer-label">Secs</div>
+          </div>
+        </div>
+
+        <!-- Portrait & Quote -->
+        <div class="countdown-portrait">
+          <img id="countdown-couple-photo" src="images/countdown_image.png" alt="Couple portrait">
+          <p id="romantic-quote" class="countdown-quote">Loading romantic quote...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SCHEDULE & EVENTS SECTION
+       ========================================================================== -->
+  <section id="events-section" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Wedding Events</h2>
+        <p>Please join us for our wedding celebration ceremonies</p>
+      </div>
+
+      <div id="event-grid" class="event-grid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PRE-WEDDING GALLERY & VIDEO
+       ========================================================================== -->
+  <section id="gallery-section" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Happy Moments</h2>
+        <p>Capturing the joy of our love in pictures and motion</p>
+      </div>
+
+      <div id="gallery-grid" class="gallery-grid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- ==========================================================================
+       LIGHTBOX MODAL
+       ========================================================================== -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <span id="lightbox-close" class="lightbox-close"><i class="fa-solid fa-xmark"></i></span>
+      <img id="lightbox-img" src="" alt="Enlarged gallery view">
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container footer-content">
+      <h2 id="footer-names">Dhrumil & Hency</h2>
+      <p>We look forward to celebrating our love story with you!</p>
+      <div class="footer-credit">
+        @2026 Henshi and Dhrumil's Wedding.All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+  <!-- ==========================================================================
+       JAVASCRIPT
+       ========================================================================== -->
+  <!-- Config script first -->
+  <script src="config.js"></script>
+  <!-- App logic next -->
+  <script src="script.js"></script>
+</body>
+</html>
