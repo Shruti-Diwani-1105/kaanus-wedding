@@ -6,7 +6,7 @@ const WEDDING_CONFIG = {
       name: "Henshi",
       bio: "As i step into this beautiful new chapter, i m ready to weave a lifetime of love, laughter, and shared dreams with Dhrumil.with a heart full of gratitude and excitement, i look forward to celebrate the beginning of our forever  surrounded by the people who mean the most.",
       photo: "images/bride.png",
-      parents: "D/o . Kalpanaben Chandulala Diwani",
+      parents: "D/o . Kalpanaben Chandubhai Diwani",
       instagram: "@henshi_shah"
     },
     groom: {

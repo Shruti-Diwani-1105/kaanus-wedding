@@ -140,17 +140,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const splashScreen = document.getElementById("splash-screen");
   const btnOpenInvitation = document.getElementById("btn-open-invitation");
 
+  // Prevent scrolling by touching/dragging on the splash overlay
+  if (splashScreen) {
+    splashScreen.addEventListener("touchmove", (e) => {
+      e.preventDefault();
+    }, { passive: false });
+  }
+
   // Open Invitation Action
-  btnOpenInvitation.addEventListener("click", () => {
-    splashScreen.classList.add("hidden");
-    
-    // Start background music
-    if (bgMusic) {
-      bgMusic.play().catch(err => {
-        console.log("Audio autoplay was prevented: ", err);
-      });
-    }
-  });
+  if (btnOpenInvitation && splashScreen) {
+    btnOpenInvitation.addEventListener("click", () => {
+      splashScreen.classList.add("hidden");
+      document.body.classList.remove("no-scroll");
+      
+      // Start background music
+      if (bgMusic) {
+        bgMusic.play().catch(err => {
+          console.log("Audio autoplay was prevented: ", err);
+        });
+      }
+    });
+  }
 
   // ==========================================================================
   // COUNTDOWN TIMER

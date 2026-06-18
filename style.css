@@ -56,6 +56,11 @@ body {
   overflow-x: hidden;
 }
 
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 600;
@@ -1225,6 +1230,10 @@ footer {
     background-position: center !important;
     padding-top: 0;
     align-items: center;
+  }
+
+  .floral-sections-wrapper {
+    background-attachment: scroll !important;
   }
 
   .hero-content {
