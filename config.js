@@ -41,7 +41,7 @@ const WEDDING_CONFIG = {
       date: "22-11-2026",
       time: "09:00 AM onwards",
       venue: "Shree Chaitanya Swarup Ashram",
-      address: "Nakhatrana, Kutch, Gujarat",
+      address: "Rameshwar, Nakhatrana, Kutch, Gujarat",
       mapLink: "https://maps.google.com"
     },
     {
@@ -50,7 +50,7 @@ const WEDDING_CONFIG = {
       date: "23-11-2026",
       time: "04:00 PM onwards",
       venue: "Shree Chaitanya Swarup Ashram",
-      address: "Nakhatrana, Kutch, Gujarat",
+      address: "Rameshwar, Nakhatrana, Kutch, Gujarat",
       mapLink: "https://maps.google.com"
     },
     {
@@ -59,7 +59,7 @@ const WEDDING_CONFIG = {
       date: "23-11-2026",
       time: "08:00 PM onwards",
       venue: "Shree Chaitanya Swarup Ashram",
-      address: "Nakhatrana, Kutch, Gujarat",
+      address: "Rameshwar, Nakhatrana, Kutch, Gujarat",
       mapLink: "https://maps.google.com"
     },
     {
@@ -68,7 +68,7 @@ const WEDDING_CONFIG = {
       date: "24-11-2026",
       time: "09:30 AM onwards",
       venue: "Shree Chaitanya Swarup Ashram",
-      address: "Nakhatrana, Kutch, Gujarat",
+      address: "Rameshwar, Nakhatrana, Kutch, Gujarat",
       mapLink: "https://maps.google.com"
     }
   ],
