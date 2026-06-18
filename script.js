@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // ==========================================================================
   
   // Inject Names & Hero Info
-  const coupleNames = `${WEDDING_CONFIG.couple.bride.name} & ${WEDDING_CONFIG.couple.groom.name}`;
-  const splashNamesFormatted = `${WEDDING_CONFIG.couple.bride.name}<br>&<br>${WEDDING_CONFIG.couple.groom.name}`;
+  const coupleNames = `${WEDDING_CONFIG.couple.bride.name} with ${WEDDING_CONFIG.couple.groom.name}`;
+  const splashNamesFormatted = `${WEDDING_CONFIG.couple.bride.name}<br>with<br>${WEDDING_CONFIG.couple.groom.name}`;
   const splashName = document.querySelector(".couple-name-below");
   if (splashName) {
-    splashName.innerHTML = `${WEDDING_CONFIG.couple.bride.name} <span>&</span> ${WEDDING_CONFIG.couple.groom.name}`;
+    splashName.innerHTML = `${WEDDING_CONFIG.couple.bride.name} <span>with</span> ${WEDDING_CONFIG.couple.groom.name}`;
   }
   document.getElementById("hero-names").textContent = coupleNames;
   document.getElementById("footer-names").textContent = coupleNames;
