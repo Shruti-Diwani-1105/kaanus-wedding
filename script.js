@@ -152,6 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btnOpenInvitation.addEventListener("click", () => {
       splashScreen.classList.add("hidden");
       document.body.classList.remove("no-scroll");
+      document.documentElement.classList.remove("no-scroll");
       
       // Start background music
       if (bgMusic) {
