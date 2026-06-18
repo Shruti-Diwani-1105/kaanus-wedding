@@ -56,8 +56,7 @@ body {
   overflow-x: hidden;
 }
 
-body::before {
-  content: "";
+.fixed-bg {
   position: fixed;
   top: 0;
   left: 0;
