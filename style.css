@@ -318,6 +318,16 @@ img {
   animation: scaleIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
+.hero-title .connector {
+  font-family: var(--font-script);
+  font-size: 0.85em;
+  color: var(--color-primary);
+  text-transform: lowercase;
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .hero-date {
   font-family: var(--font-heading);
   font-style: italic;
@@ -1256,6 +1266,11 @@ footer {
   
   .hero-title {
     font-size: 5rem;
+  }
+  
+  .hero-title .connector {
+    display: block;
+    margin: 5px 0;
   }
   
   .timeline::after {

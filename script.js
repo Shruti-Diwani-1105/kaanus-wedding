@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (splashName) {
     splashName.innerHTML = `${WEDDING_CONFIG.couple.bride.name} <span>with</span> ${WEDDING_CONFIG.couple.groom.name}`;
   }
-  document.getElementById("hero-names").textContent = coupleNames;
+  const heroNamesHTML = `${WEDDING_CONFIG.couple.bride.name} <span class="connector">with</span> ${WEDDING_CONFIG.couple.groom.name}`;
+  document.getElementById("hero-names").innerHTML = heroNamesHTML;
   document.getElementById("footer-names").textContent = coupleNames;
   document.getElementById("hero-date").textContent = WEDDING_CONFIG.dateString;
   document.title = `Wedding Invitation | ${coupleNames}`;
