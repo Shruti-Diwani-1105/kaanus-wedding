@@ -1231,7 +1231,8 @@ footer {
     background-size: cover !important;
     background-position: center !important;
     padding-top: 0;
-    align-items: center;
+    align-items: flex-end !important;
+    padding-bottom: 60px;
   }
 
   .floral-sections-wrapper {
@@ -1239,7 +1240,7 @@ footer {
   }
 
   .hero-content {
-    margin-top: 75px;
+    margin-top: 0;
   }
 
   .event-grid {
