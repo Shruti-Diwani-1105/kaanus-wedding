@@ -319,13 +319,7 @@ img {
 }
 
 .hero-title .connector {
-  font-family: var(--font-script);
-  font-size: 0.85em;
-  color: var(--color-primary);
-  text-transform: lowercase;
-  margin: 0 15px;
   display: inline-block;
-  vertical-align: middle;
 }
 
 .hero-date {
